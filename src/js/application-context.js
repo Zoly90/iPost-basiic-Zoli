@@ -10,6 +10,7 @@ import folders from './modules/folders';
 import navigation from './modules/navigation';
 import notifications from './modules/notifications';
 import pagination from './modules/pagination';
+import myModule from './modules/myModule';
 
 
 const context = new Context({
@@ -27,7 +28,8 @@ context.create({
   folders,
   navigation,
   notifications,
-  pagination
+  pagination,
+  myModule
 });
 
 export const actions = context.actions;
